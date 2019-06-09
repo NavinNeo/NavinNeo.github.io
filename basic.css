@@ -7,7 +7,9 @@ body
 
 video
 {
-	margin-left: 25%
+	position: absolute;
+	left: 50%;
+	margin-left: -320px;
 }
 
 p,h2
@@ -23,7 +25,7 @@ a
 
 ol
 {
-	line-height: 28px;
+	line-height: 26px;
 	
 }
 
@@ -91,6 +93,11 @@ ol
 {
 	margin-top: 50px;
 
+}
+
+#References
+{
+	margin-top: 400px;
 }
 
 
@@ -162,6 +169,7 @@ ol
 	background-color: #D3D3D3;
 	text-align: justify;
 }
+
 
 a:link
 {
